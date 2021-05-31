@@ -1,13 +1,13 @@
 # tsconfig
 
-[![npm](https://img.shields.io/npm/v/@egodigital/tsconfig.svg)](https://www.npmjs.com/package/@egodigital/tsconfig)
+[![npm](https://img.shields.io/npm/v/@egomobile/tsconfig.svg)](https://www.npmjs.com/package/@egomobile/tsconfig)
 
-Shared [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) config files for [e.GO](https://e-go-digital.com/) projects.
+Shared [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) config files for [e.GO](https://e-go-mobile.com/) projects.
 
 ## Install
 
 ```
-$ npm install --save-dev @egodigital/tsconfig
+$ npm install --save-dev @egomobile/tsconfig
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ $ npm install --save-dev @egodigital/tsconfig
 
 ```json
 {
-    "extends": "@egodigital/tsconfig",
+    "extends": "@egomobile/tsconfig",
     "compilerOptions": {
         "outDir": "dist",
         "target": "es2020",
